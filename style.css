@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.header{
+    background-color: #a2a8d3;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+body{
+    background-color: #5c5470;
+}
+
+.lettersText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.lettersImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.letterJpg{
+    max-width: 400px;
+}
+
+.newspaperText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.newspaperImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.newspaperJpg{
+    max-width: 400px;
+}
+
+.radioText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.radioImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.radioJpg{
+    max-width: 400px;
+}
+
+.televisionText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.televisionImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.televisionJpg{
+    max-width: 400px;
+}
+
+.phoneText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.phoneImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.phoneJpg{
+    max-width: 400px;
+}
+
+.computerText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.computerImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.computerJpg{
+    max-width: 400px;
+}
+
+.videoGamesText{
+    font-size: 20px;
+    padding: 80px 200px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.videoGamesImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+
+.videoGamesJpg{
+    max-width: 400px;
+    padding-bottom: 30px;
+}
+
+  
+  /* Media query para pantallas con un ancho mayor a 800px */
+  @media (max-width: 801px) {
+
+
+
+    .header{
+        font-size: 50px;
+    }
+
+    .lettersText, .newspaperText, .radioText, .televisionText, .phoneText, .computerText, .videoGamesText{
+        padding: 50px 30px;
+    }
+
+    .letterJpg, .newspaperJpg, .radioJpg, .televisionJpg, .phoneJpg, .computerJpg, .computerJpg, .videoGamesJpg{
+        max-width: 200px;
+    }
+
+  }
